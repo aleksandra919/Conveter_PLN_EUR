@@ -4,7 +4,7 @@ import './App.css';
 class Header extends Component {
   render(){
     const symbol = "<-->"
-    return( 
+    return(
         <div class="blue-text darken-4 center">
           <h3>Currency Exchange</h3>
           <p>EUR {symbol} PLN</p>
@@ -89,7 +89,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <Header />,
+        <Header />
         <Calculator />
       </div>
     );
